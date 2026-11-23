@@ -1,0 +1,36 @@
+PRIVATEHIRE CARS - SPRINT 2 / WAMP (BẢN SỬA LỖI #1824)
+==================================================
+
+A. BẠN ĐÃ CÓ DATABASE privatehire_cars_db, KỂ CẢ ĐÃ IMPORT SPRINT 2 BỊ LỖI:
+  1. Bật Wampserver64 => biểu tượng W màu xanh.
+  2. Mở Chrome: http://localhost/phpmyadmin/
+  3. Chọn privatehire_cars_db -> Export -> SQL -> Go để BACKUP.
+  4. Chọn Import -> file:
+     SPRINT2_02_SAFE_UPGRADE_EXISTING_OR_AFTER_NEW.sql
+     -> Go. FILE NÀY CÓ THỂ CHẠY LẠI, KHÔNG DROP TABLE.
+  5. KHÔNG import lại init_database.sql vì file gốc đó có DROP TABLE.
+
+B. CHƯA CÓ DATABASE, MUỐN CÀI MỚI HOÀN TOÀN:
+  1. Bật WAMP, mở http://localhost/phpmyadmin/
+  2. Import SPRINT2_01_NEW_EMPTY_DATABASE_ONLY.sql (CHỈ DB TRỐNG).
+  3. Sau đó import SPRINT2_02_SAFE_UPGRADE_EXISTING_OR_AFTER_NEW.sql.
+
+C. CHẠY WEBSITE:
+  1. Đặt folder PrivateHire_Cars_Sprint1 vào C:\wamp64\www\
+     Đường dẫn cuối cùng: C:\wamp64\www\PrivateHire_Cars_Sprint1\
+  2. Đầu tiên mở kiểm tra DB:
+     http://localhost/PrivateHire_Cars_Sprint1/sprint2_status.php
+  3. Nhấn đúp TAO_ADMIN_WAMP.bat trong thư mục dự án để tạo Admin.
+  4. Trang Sprint 1: http://localhost/PrivateHire_Cars_Sprint1/index.html
+  5. Trang Sprint 2: http://localhost/PrivateHire_Cars_Sprint1/sprint2.html
+
+D. NẾU GẶP LỖI:
+  - Chụp ảnh màn hình của sprint2_status.php và màn hình lỗi Import gửi lại.
+  - Không xóa database hoặc chạy lại init_database.sql khi chưa BACKUP.
+
+GHI NHỚ:
+  - Mã nguồn SPRINT 1 trong gói này GIỮ NGUYÊN so với file ZIP gốc.
+  - Schema MySQL được MỞ RỘNG cho Sprint 2 (và engine bookings có thể
+    được chuyển sang InnoDB nếu cần, không xóa booking/customer cũ).
+  - Thanh toán là SANDBOX thẻ TEST, không phải charge VISA Check thật.
+  - Email/SMS/GPS thật cần cài đặt provider ngoài.
