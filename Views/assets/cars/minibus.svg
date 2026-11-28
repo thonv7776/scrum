@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" role="img" aria-label="8-Seat Minibus"><defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eaf1fb"/><stop offset="1" stop-color="#cfdcee"/></linearGradient></defs><rect width="480" height="270" fill="url(#bg)"/><rect y="205" width="480" height="65" fill="#9aa6b5"/><rect y="205" width="480" height="3" fill="#7d8998"/><ellipse cx="240" cy="214" rx="170" ry="9" fill="#000" opacity=".22"/>
+<path d="M36 186 L36 112 Q36 90 60 90 L350 90 Q384 92 404 124 L434 136 Q446 142 446 160 L446 186 Z" fill="#2a2f36"/>
+<path d="M64 102 L110 102 L110 136 L64 136 Z" fill="#46627f"/>
+<path d="M118 102 L184 102 L184 136 L118 136 Z" fill="#46627f"/>
+<path d="M192 102 L258 102 L258 136 L192 136 Z" fill="#46627f"/>
+<path d="M266 102 L342 102 Q364 106 378 134 L266 136 Z" fill="#46627f"/>
+<rect x="36" y="146" width="410" height="3" fill="#454c56"/>
+<rect x="36" y="176" width="410" height="12" rx="5" fill="#161a1f"/>
+<rect x="428" y="148" width="18" height="11" rx="3" fill="#fff3b0"/><rect x="36" y="152" width="10" height="10" rx="3" fill="#d94a4a"/>
+<g><circle cx="118" cy="188" r="26" fill="#0f1215"/><circle cx="118" cy="188" r="14" fill="#c9ced5"/><circle cx="118" cy="188" r="4" fill="#8d96a1"/></g>
+<g><circle cx="366" cy="188" r="26" fill="#0f1215"/><circle cx="366" cy="188" r="14" fill="#c9ced5"/><circle cx="366" cy="188" r="4" fill="#8d96a1"/></g>
+</svg>

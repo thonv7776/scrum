@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" role="img" aria-label="4-Seat Saloon"><defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eaf1fb"/><stop offset="1" stop-color="#cfdcee"/></linearGradient></defs><rect width="480" height="270" fill="url(#bg)"/><rect y="205" width="480" height="65" fill="#9aa6b5"/><rect y="205" width="480" height="3" fill="#7d8998"/><ellipse cx="240" cy="214" rx="170" ry="9" fill="#000" opacity=".22"/>
+<path d="M62 184 L62 164 Q64 150 90 146 L150 138 Q180 104 214 100 L286 100 Q322 102 346 134 L400 142 Q420 148 420 166 L420 184 Z" fill="#b9c0c9"/>
+<path d="M164 136 Q186 110 214 108 L240 108 L240 136 Z" fill="#31485f"/>
+<path d="M250 108 L284 108 Q310 110 328 136 L250 136 Z" fill="#31485f"/>
+<rect x="244" y="108" width="3" height="30" fill="#b9c0c9"/>
+<rect x="62" y="176" width="358" height="12" rx="5" fill="#8d96a1"/>
+<rect x="404" y="150" width="16" height="10" rx="3" fill="#fff3b0"/><rect x="62" y="152" width="12" height="9" rx="3" fill="#d94a4a"/>
+<rect x="300" y="146" width="22" height="4" rx="2" fill="#7d8691"/><rect x="186" y="146" width="22" height="4" rx="2" fill="#7d8691"/>
+<g><circle cx="140" cy="188" r="25" fill="#1f2328"/><circle cx="140" cy="188" r="13" fill="#d7dce2"/><circle cx="140" cy="188" r="4" fill="#8d96a1"/></g>
+<g><circle cx="352" cy="188" r="25" fill="#1f2328"/><circle cx="352" cy="188" r="13" fill="#d7dce2"/><circle cx="352" cy="188" r="4" fill="#8d96a1"/></g>
+</svg>

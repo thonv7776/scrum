@@ -1,4 +1,19 @@
-<FilesMatch "^(config\.php|lib\.php|original_database\.sql|init_database\.sql)$">
-Require all denied
-</FilesMatch>
+# All public URLs stay unchanged even though the source files have clean MVC names.
 Options -Indexes
+DirectoryIndex index.html
+RewriteEngine On
+RewriteCond %{REQUEST_URI} ^(.*/)Views/index\.html$ [NC]
+RewriteRule ^Views/index\.html$ %1index.html [R=302,L,NC]
+RewriteRule ^(?:Models|Controllers|Views)(?:/|$) - [F,END,NC]
+RewriteRule ^$ Controllers/Home.php [END]
+RewriteRule ^index\.(?:html|php)$ Controllers/Home.php [END,NC]
+RewriteRule ^api\.php$ Controllers/Booking.php [END,NC]
+RewriteRule ^verify\.php$ Controllers/Verify.php [END,NC]
+RewriteRule ^sprint2_api\.php$ Controllers/Portal.php [END,NC]
+RewriteRule ^sprint2_gps_webhook\.php$ Controllers/Gps.php [END,NC]
+RewriteRule ^sprint2_status\.php$ Controllers/Status.php [END,NC]
+RewriteRule ^coursework_demo\.php$ Controllers/Demo.php [END,NC]
+RewriteRule ^app\.js$ Views/Scripts/booking.js [END,NC]
+RewriteRule ^sprint1_checkout_bridge\.js$ Views/Scripts/checkout.js [END,NC]
+RewriteRule ^sprint2_bridge\.js$ Views/Scripts/portal.js [END,NC]
+RewriteRule ^assets/(.*)$ Views/assets/$1 [END,NC]

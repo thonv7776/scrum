@@ -1,0 +1,4 @@
+LOCAL COURSEWORK DEMO ENABLED. Delete this file to disable mock GPS forwarding.
+
+Gmail and textbee are REAL integrations, not mocked.
+The 9-place routing estimates and sandbox card payment are not real external integrations.
